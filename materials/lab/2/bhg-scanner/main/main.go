@@ -3,5 +3,6 @@ package main
 import "bhg-scanner/scanner"
 
 func main(){
-	scanner.PortScanner()
+	test := 100
+	scanner.PortScanner(test)
 }
